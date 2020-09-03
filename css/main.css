@@ -1,0 +1,238 @@
+.headerBtn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #1D1D1B;
+    white-space: nowrap;
+}
+.headerBtnV2{
+    background: #1D1D1B !important;
+    width: 246px;
+    height: 39px;
+    color: white;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerBtnV3{
+    cursor: pointer;
+}
+.ticket{
+    background: transparent;
+    width: 657px;
+    height: 356px;
+    margin-top: -16rem;
+    color: white;
+    font-family: Open Sans, sans-serif;
+}
+.ticketLeft{
+    background: #1D1D1B;
+    width: 453px;
+    height: inherit;
+}
+.ticketFigure{
+    margin-left: 65px;
+}
+.ticketPrimText{
+    font-family: Open Sans, sans-serif;
+    font-size: 15px;
+}
+.ticketRightText{
+    width: 150px;
+}
+.ticketLeftText{
+    width: 220px;
+}
+.ticketTitle{
+    font-family: Open Sans, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.ticketBtn{
+    background: #C6252D;
+    width: 149px;
+    height: 33px;
+    color: #FFFFFF;
+}
+.slide{
+    background: url("/images/image1.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 541px;
+}
+.shareBlock{
+    margin-top: 5rem;
+}
+.mainText{
+    margin-top: 10rem;
+}
+.mainPrimText{
+    text-align: justify;
+}
+.quoteText{
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 7rem;
+}
+.quoteFigure{
+    z-index: -1;
+}
+.squareFrame{
+    width: 218px;
+    height: 218px;
+    background: url("/images/image2.png");
+}
+.squareFigure{
+    position: absolute;
+    width: 197px;
+    height: 102px;
+    background: #EFC622;
+    mix-blend-mode: multiply;
+    margin-top: 180px;
+    margin-left: 40px;
+}
+.frameText{
+    color: white;
+    line-height: 20px;
+    margin-top: 200px;
+    margin-left: 52px;
+    position: absolute;
+    width: 197px;
+    height: 102px;
+}
+.secondaryFrame{
+    background: url("/images/image3.png");
+    width: 370px;
+    height: 297px;
+}
+.squareFigureV2, .squareFigureV3, .squareFigureV4{
+    width: 268px;
+    height: 139px;
+    mix-blend-mode: multiply;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 72px;
+}
+.squareFigureV2{
+    background: #EFC622;
+}
+.squareFigureV3{
+    background: #C93E8A
+}
+.squareFigureV4{
+    background: #4F3D8B;
+}
+.frameTextV2{
+    position: absolute;
+    margin-top: 210px;
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    margin-left: 95px;
+    color: white;
+    width: 268px;
+}
+.frameTextSmall{
+    font-size: 16px;
+    margin-top: -10px;
+    position: absolute;
+}
+.primBLock{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.frames{
+    justify-content: space-between;
+}
+.secondaryFrames{
+    justify-content: space-between;
+}
+.bTop{
+    border-top: 3px solid #1D1D1B;
+}
+.secondaryFrameV2, .secondaryFrameV3, .secondaryFrameV4, .secondaryFrameV5{
+    width: 240px;
+}
+.secondaryFrameV2{
+    border-right: 3px solid #EFC622;
+}
+.secondaryFrameV3{
+    border-right: 3px solid #C93E8A;
+}
+.secondaryFrameV4{
+    border-right: 3px solid #4F3D8B;
+}
+.secondaryFrameV5{
+    border: none;
+}
+.bwI{
+    min-height: 170px;
+}
+.secondaryFrameV2Image{
+    background: url("/images/image4.png");
+    width: 201px;
+    height: 79px;
+}
+.secondaryFrameV2Text{
+    width: 185px;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    color: #1D1D1B;
+}
+.secondaryFrameV2SmallText{
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    line-height: 120.9%;
+    color: #1D1D1B;
+}
+.secondaryFrameBtn{
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #1D1D1B;
+    width: 114px;
+}
+.arrow{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 24px;
+}
+footer{
+    margin-top: 12rem;
+    min-height: 311px;
+    background: #E9E9E9;
+}
+footer .footerCont{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.footerCont .col{
+    justify-content: space-between;
+}
+.footerCont .row{
+    justify-content: space-between;
+}
+.footerTitleText{
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1D1D1B;
+    margin-bottom: .5rem;
+}
+.footerFrames{
+    justify-content: space-between;
+}
+.footerSeparator{
+    margin-top: -.6rem;
+}
